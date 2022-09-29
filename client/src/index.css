@@ -1,0 +1,11 @@
+.cardlist {
+    width: 70vw;
+    margin: 10px auto;
+    background: #000;
+}
+
+@media (max-width: 768px) {
+    .cardlist {
+        width: 100vw;
+    }
+}

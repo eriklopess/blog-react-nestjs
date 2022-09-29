@@ -1,0 +1,38 @@
+.card {
+    width: 70vw;
+    height: 100px;
+    display: flex;    
+}
+
+.card--image {
+    width: 30%;
+    height: 100%;
+    background-color: red;
+}
+
+.card--container--text {
+    width: 70%;
+    height: 100%;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card--title {
+    font-size: 15px;
+}
+
+.card--subtitle {
+    font-size: 10px;
+}
+
+.card--category {
+    align-self: flex-end;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100vw;
+    }
+}
