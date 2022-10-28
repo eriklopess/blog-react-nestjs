@@ -11,5 +11,5 @@ export class PostDTO {
 
   @IsInt()
   @Min(0)
-  authorId: string;
+  author: string;
 }
